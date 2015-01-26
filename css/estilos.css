@@ -1,0 +1,44 @@
+#guia {
+	background: green;
+}
+
+/* Modulo 1: Bordes; */
+
+.boton {
+	border: none;
+	border-radius: 4px;
+}
+
+.boton-large {
+	background: #008d36;
+	font-size: 20px;
+	width: 300px;
+	height: 60px;
+	color: #fff;
+}
+
+.boton-medium {
+	background: none;
+	border: 1.4px solid #fff;
+	color: #fff;
+	width: 178px;
+	height: 35px;
+}
+
+.boton-small {
+	background: none;
+	border: 1px solid #3aaa35;
+	color: #3aaa35;
+	height: 25px;
+}
+
+.circulo {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #36a9e1;
+	color: #36a9e1;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
