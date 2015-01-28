@@ -1,3 +1,9 @@
+.container {
+	width: 950px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
 #guia {
 	background: green;
 }
@@ -41,4 +47,10 @@
 	line-height: 40px;
 	text-align: center;
 	font-size: 20px;
+}
+
+/* Modulo 3: Efectos de texto ; */
+
+.titulo-principal {
+	text-shadow: 2px 2px 1px blue;
 }
