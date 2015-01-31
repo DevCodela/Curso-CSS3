@@ -53,4 +53,20 @@
 
 .titulo-principal {
 	text-shadow: 2px 2px 1px blue;
+	font-size: 50px;
+}
+
+/* Modulo 4: Web Fonts */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.titulo-principal-delgado {
+	font-weight: 300;
+	display: block;
+}
+
+.titulo-principal-grueso {
+	font-weight: 700;
 }
