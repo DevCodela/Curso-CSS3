@@ -4,10 +4,6 @@
 	margin: 0 auto;
 }
 
-#guia {
-	background: green;
-}
-
 /* Modulo 1: Bordes; */
 
 .boton {
@@ -52,8 +48,9 @@
 /* Modulo 3: Efectos de texto ; */
 
 .titulo-principal {
-	text-shadow: 2px 2px 1px blue;
+	text-shadow: 2px 2px 1px rgb(0,11,63);
 	font-size: 50px;
+	color: #fff;
 }
 
 /* Modulo 4: Web Fonts */
@@ -69,4 +66,19 @@ body {
 
 .titulo-principal-grueso {
 	font-weight: 700;
+}
+
+/* Modulo 5: Backgrounds */
+
+#cabecera {
+	background-image: linear-gradient(to right, rgba(0,11,63,0.5), rgba(0,11,63,0.5) 25%, rgba(241, 143, 52,0.1) 67.5%) ,url("../img/apps-android.jpg");
+	background-size: cover;
+	min-height: 500px;
+	padding-top: 100px;
+}
+
+#guia {
+	background: #3aaa35;
+	padding: 75px 0;
+	color: #fff;
 }
