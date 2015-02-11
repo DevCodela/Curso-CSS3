@@ -82,3 +82,62 @@ body {
 	padding: 75px 0;
 	color: #fff;
 }
+
+/* Modulo 7: Transformaciones y transiciones */
+
+.ranking-titulo {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.ranking-titulo-h2 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.ranking-descripcion {
+	width: 430px;
+	margin: 0 auto;
+}
+
+.ranking-lista {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.ranking-item {
+	width: 270px;
+	float: left;
+	margin-left: 50px;
+}
+
+.ranking-item:nth-child(1){
+	margin-left: 0;
+}
+
+.circulo {
+	margin: 0 auto 30px auto;
+}
+
+.ranking-titulo-app {
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+}
+
+.ranking-descargar {
+	width: 50%;
+	float: right;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.icon-descarga {
+	transition: all 2s;
+}
+
+.ranking-descargar:hover .icon-descarga {
+	transform: translateY(50px);
+}
